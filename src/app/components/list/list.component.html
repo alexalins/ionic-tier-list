@@ -1,0 +1,13 @@
+<ion-list>
+
+  <ion-item *ngFor="let tier of tierList" (click)="presentAlert(tier)">
+    <ion-avatar slot="start">
+      <img [src]="tier.imagem">
+    </ion-avatar>
+    <ion-label>
+        <h2>{{tier.user}}</h2>
+        <h3>{{tier.rank}} - {{tier.tier}}</h3>
+    </ion-label>
+  </ion-item>
+
+</ion-list>

@@ -1,0 +1,20 @@
+<header title="Info"></header>
+
+<ion-content>
+    <ion-card>
+        <img [src]="imagem" />
+        <ion-card-header>
+          <ion-card-subtitle>Sobre nós</ion-card-subtitle>
+          <ion-card-title>Criado em live por Alexa Lins</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            Aplicativo desenvolvido em live com o objetivo de iniciar os membros do servidor em ionic.<br>
+            O aplicativo consome API feita em Scrapy e Flask do site de rank de TFT.
+        </ion-card-content>
+    </ion-card>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button href="https://github.com/cod-go/ionic-tier-list">
+            <ion-icon name="logo-github"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+</ion-content>
